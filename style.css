@@ -1,0 +1,74 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5efe6;
+  /* رنگ دیوارها: کرم گرم */
+  color: #3e2c23;
+  /* رنگ نوشته‌ها: قهوه‌ای تیره */
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
+  color: #8a6f5c;
+  /* رنگ شعار: قهوه‌ای روشن‌تر */
+}
+.menu li {
+  list-style: none;
+  /* نقطه‌های پیش‌فرض را حذف کن */
+
+  background: #ffffff;
+  /* برگه سفیدِ منو */
+
+  border: 1px solid #e5d9c9;
+  /* قاب کرم روشن دور برگه */
+
+  border-radius: 12px;
+  /* گوشه‌های گرد */
+
+  padding: 12px 16px;
+  /* فاصله داخلی تا متن به قاب نچسبد */
+
+  margin-bottom: 10px;
+  /* فاصله بین برگه‌ها */
+  width: 80%;
+}
+.about h2 , .contact h2 {
+  background: #ffffff;
+  /* پس زمینه شیشه ای */
+  
+  border: 1px solid #e5d9c9;
+  /* قاب کرم روشن دور برگه */
+  border-radius: 12px;
+  /* گوشه های گرد */
+  
+  padding: 12px 16px;
+  /* فاصله داخلی تا متن به قاب نچسبد */
+  
+  margin-bottom: 10px;
+  /* فاصله بین برگه ها */
+}
+.menu, .about, .contact {
+  margin-top: 28px;
+  /* همان درس پروژه ۱: بین اتاق‌ها نفس بگذار */
+}
+
+.about p {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  /* خط‌های داستان کوتاه‌تر شوند تا خواندنشان راحت‌تر باشد */
+}
+
+.contact a {
+  color: #8a5a2b;
+  /* رنگ لینک: کاراملی، هم‌خانواده با برند کافه */
+  text-decoration: none;
+  /* زیرخط پیش‌فرض مرورگر را حذف کن */
+}
